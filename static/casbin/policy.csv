@@ -1,0 +1,27 @@
+p, user, /shop-type/list, GET
+p, user, /shop/of/type, GET
+p, user, /shop, GET
+p, user, /shop, PUT
+p, user, /shop/of/name, PUT
+p, user, /blog, POST
+p, user, /blog/hot, GET
+p, user, /blog/of/user, GET
+p, user, /blog/of/me , GET
+p, user, /blog/of/follow , GET
+p, user,/voucher/seckill  , POST
+p, user, /user/code , POST
+p, user,/user/login  , POST
+p, user, /user/logout , POST
+p, user, /user/me , GET
+p, user, /user/sign , GET
+p, user, /user/signCount , GET
+p, user, /upload/blog , POST
+p, user, /upload/delete , GET
+p, user, /follow/common/:blogId , GET
+p, user, /comment/get,  GET
+p, user, /comment/getlist, GET
+p, user, /commnt/add , POST
+p, user, /reply/add, POST
+p, user, /commnt/del , GET
+p, user, /reply/del, GET
+p, user, /reply/sel, GET

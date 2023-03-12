@@ -1,0 +1,23 @@
+system:
+  ip: "127.0.0.1"
+  port: "8081"
+
+mysql:
+  username: "root"
+  password: ""
+  addr: "127.0.0.1:3306"
+  config: "charset=utf8mb4&parseTime=True&loc=Local"
+  dbName: "ggs"
+
+redis:
+  password: ""
+  addr: "127.0.0.1:6379"
+  db: "0"
+  
+mongodb:
+  dbname: go-gin-video
+  host: 127.0.0.1
+  param: authSource=admin
+  password: password
+  port: 27017
+  username: username
